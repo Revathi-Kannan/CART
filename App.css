@@ -1,0 +1,57 @@
+
+body{
+  background-color: white
+}
+
+
+.Description{
+  font-weight: bolder;
+}
+
+.AllProd{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 products per row */
+  gap: 20px; /* Adds some space between the products */
+  padding: 25px;
+  margin: 1px;
+}
+
+.header{
+  justify-content: center;
+  display:flex;
+  border: solid orange;
+  background-color: orange;
+  padding: 29px;
+}
+
+
+.picture{
+  width:100%;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.cartheader {
+  position: absolute; /* or fixed depending on your needs */
+  top: 70px;
+  right: 30px;
+  padding: 10px; /* Optional: Adds padding from the edges */
+font-weight: bolder;
+}
+
+.cart-count {
+  display: flex;
+  align-items: center;
+}
+
+.cartpic {
+  position:static;
+  width: 20px; 
+ padding: 4px;
+  height: 20px;
+  margin-right: 5px; /* Space between image and text */
+margin-bottom: 3px;
+margin-top: 6px;
+
+}
+
